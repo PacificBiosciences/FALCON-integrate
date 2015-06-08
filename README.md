@@ -1,2 +1,2 @@
 # FALCON-integrate
-A place to coordinate FALCON, FALCON-workspace, FALCON-install, and FALCON-examples.
+A place to coordinate FALCON, FALCON-workspace, FALCON-make, and FALCON-examples.

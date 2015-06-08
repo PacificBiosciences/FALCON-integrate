@@ -1,0 +1,9 @@
+[submodule "FALCON-workspace"]
+	path = FALCON-workspace
+	url = git://github.com/pb-cdunn/FALCON-workspace.git
+[submodule "FALCON-make"]
+	path = FALCON-make
+	url = git://github.com/pb-cdunn/FALCON-make.git
+[submodule "FALCON-examples"]
+	path = FALCON-examples
+	url = git://github.com/pb-cdunn/FALCON-examples.git
