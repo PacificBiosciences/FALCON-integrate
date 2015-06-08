@@ -1,0 +1,30 @@
+# Build matrix / environment variable are explained on:
+# http://about.travis-ci.org/docs/user/build-configuration/
+# This file can be validated on:
+# http://lint.travis-ci.org/
+
+os:
+  - linux
+language: cpp
+compiler:
+  - gcc
+#  - clang
+#  We should test with clang within the modules, not here.
+script: ./travis.sh
+#addons:
+#  apt:
+#    sources:
+#    - ubuntu-toolchain-r-test
+#    packages:
+#    - time
+#    - gcc-4.8
+#    - g++-4.8
+#    - clang
+#   - libxqilla-dev # missing, but not needed?
+#env:
+#  matrix:
+#    - SHARED_LIB=ON  STATIC_LIB=ON CMAKE_PKG=ON  BUILD_TYPE=release VERBOSE_MAKE=false
+#    - SHARED_LIB=OFF STATIC_LIB=ON CMAKE_PKG=OFF BUILD_TYPE=debug   VERBOSE_MAKE=true VERBOSE
+notifications:
+  email: false
+sudo: false
