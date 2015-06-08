@@ -1,9 +1,24 @@
-[submodule "FALCON-workspace"]
-	path = FALCON-workspace
-	url = git://github.com/pb-cdunn/FALCON-workspace.git
+[submodule "pypeFLOW"]
+	path = pypeFLOW
+	url = git://github.com/PacificBiosciences/pypeFLOW.git
+[submodule "DALIGNER"]
+	path = DALIGNER
+	url = git://github.com/pb-cdunn/DALIGNER.git
+[submodule "DAZZ_DB"]
+	path = DAZZ_DB
+	url = git://github.com/pb-cdunn/DAZZ_DB.git
+[submodule "FALCON"]
+	path = FALCON
+	url = git://github.com/PacificBiosciences/FALCON.git
 [submodule "FALCON-make"]
 	path = FALCON-make
 	url = git://github.com/pb-cdunn/FALCON-make.git
 [submodule "FALCON-examples"]
 	path = FALCON-examples
 	url = git://github.com/pb-cdunn/FALCON-examples.git
+[submodule "git-sym"]
+	path = git-sym
+	url = git://github.com/cdunn2001/git-sym.git
+[submodule "virtualenv"]
+	path = virtualenv
+	url = git://github.com/pb-cdunn/virtualenv
