@@ -1,7 +1,7 @@
 # We suggest that you not add any rules here. Instead, customize `FALCON-make/makefile`.
 
 FALCON_PREFIX?=$(abspath fc_env)
-FALCON_WORKSPACE?=$(abspath FALCON-module)
+FALCON_WORKSPACE?=$(abspath .)
 export FALCON_PREFIX
 export FALCON_WORKSPACE
 
