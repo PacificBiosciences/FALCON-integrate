@@ -12,7 +12,7 @@
 #sudo: required
 os:
   - linux
-#language: cpp
+language: python
 compiler:
   - gcc
   - clang
