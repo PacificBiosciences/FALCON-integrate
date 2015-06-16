@@ -4,7 +4,8 @@
 # -x: show expanded commands
 set -vex
 
-#env | sort
+env | sort
+git --version
 make pre
 make virtualenv
 make check
