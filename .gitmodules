@@ -12,10 +12,10 @@
 	url = git://github.com/PacificBiosciences/pypeFLOW.git
 [submodule "DALIGNER"]
 	path = DALIGNER
-	url = git://github.com/pb-cdunn/DALIGNER.git
+	url = git://github.com/pb-jchin/DALIGNER.git
 [submodule "DAZZ_DB"]
 	path = DAZZ_DB
-	url = git://github.com/pb-cdunn/DAZZ_DB.git
+	url = git://github.com/pb-jchin/DAZZ_DB.git
 [submodule "git-sym"]
 	path = git-sym
 	url = git://github.com/cdunn2001/git-sym.git
