@@ -16,7 +16,7 @@ install:
 pre: init
 init:
 	git submodule update --init --depth=1 virtualenv
-	git submodule update --init --recursive
+	git submodule update --init
 virtualenv:
 	mkdir -p ${FALCON_PREFIX}
 	python2.7 virtualenv/virtualenv.py --no-site-packages  --always-copy ${FALCON_PREFIX}
