@@ -15,7 +15,7 @@ install:
 # These can be helpful for setup.
 pre: init
 init:
-	git submodule update --init --depth=1 virtualenv
+	git submodule update --init virtualenv
 	git submodule update --init
 virtualenv:
 	mkdir -p ${FALCON_PREFIX}
