@@ -22,3 +22,6 @@
 [submodule "virtualenv"]
 	path = virtualenv
 	url = git://github.com/pb-cdunn/virtualenv
+[submodule "DAMASKER"]
+	path = DAMASKER
+	url = git://github.com/PacificBiosciences/DAMASKER
