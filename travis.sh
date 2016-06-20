@@ -8,7 +8,7 @@ set -vex
 #sudo pip install virtualenv
 time date  # sanity check, since we use 'time' and 'date' in our scripts
 make init # Travis pulls submodules for us, but not --recursive
-make bootstrap
-make check
-make install -j
+source env.sh
+make config-edit-user
+make -j all
 make test
