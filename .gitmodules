@@ -25,3 +25,6 @@
 [submodule "DAMASKER"]
 	path = DAMASKER
 	url = git://github.com/PacificBiosciences/DAMASKER
+[submodule "DEXTRACTOR"]
+	path = DEXTRACTOR
+	url = git://github.com/PacificBiosciences/DEXTRACTOR
