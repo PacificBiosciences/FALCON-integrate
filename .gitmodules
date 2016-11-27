@@ -28,3 +28,6 @@
 [submodule "DEXTRACTOR"]
 	path = DEXTRACTOR
 	url = git://github.com/PacificBiosciences/DEXTRACTOR
+[submodule "FALCON_unzip"]
+	path = FALCON_unzip
+	url = git://github.com/PacificBiosciences/FALCON_unzip
