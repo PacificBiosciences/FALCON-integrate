@@ -6,7 +6,6 @@ default:
 	@echo 'make config-???'
 	@echo 'make all'
 init:
-	git submodule update --init
 	cp -f default-env.sh env.sh
 config-edit:
 	bash ./FALCON-make/config-edit.sh
