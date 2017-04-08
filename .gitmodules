@@ -1,15 +1,24 @@
 [submodule "pypeFLOW"]
 	path = pypeFLOW
-	url = git://github.com/PacificBiosciences/pypeFLOW.git
+	url = ../pypeFLOW.git
 [submodule "DALIGNER"]
 	path = DALIGNER
-	url = git://github.com/PacificBiosciences/DALIGNER.git
+	url = ../DALIGNER.git
+[submodule "DAMASKER"]
+	path = DAMASKER
+	url = ../DAMASKER
 [submodule "DAZZ_DB"]
 	path = DAZZ_DB
-	url = git://github.com/PacificBiosciences/DAZZ_DB.git
+	url = ../DAZZ_DB.git
+[submodule "DEXTRACTOR"]
+	path = DEXTRACTOR
+	url = ../DEXTRACTOR
 [submodule "FALCON"]
 	path = FALCON
-	url = git://github.com/PacificBiosciences/FALCON.git
+	url = ../FALCON.git
+[submodule "FALCON_unzip"]
+	path = FALCON_unzip
+	url = git://github.com/PacificBiosciences/FALCON_unzip
 [submodule "FALCON-make"]
 	path = FALCON-make
 	url = git://github.com/pb-cdunn/FALCON-make.git
@@ -19,15 +28,3 @@
 [submodule "git-sym"]
 	path = git-sym
 	url = git://github.com/cdunn2001/git-sym.git
-[submodule "virtualenv"]
-	path = virtualenv
-	url = git://github.com/pb-cdunn/virtualenv
-[submodule "DAMASKER"]
-	path = DAMASKER
-	url = git://github.com/PacificBiosciences/DAMASKER
-[submodule "DEXTRACTOR"]
-	path = DEXTRACTOR
-	url = git://github.com/PacificBiosciences/DEXTRACTOR
-[submodule "FALCON_unzip"]
-	path = FALCON_unzip
-	url = git://github.com/PacificBiosciences/FALCON_unzip
