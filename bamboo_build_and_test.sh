@@ -30,7 +30,8 @@ ls -larth
 pwd
 #git submodule update --init #No! We must use BB for some,
 # and rel URLs do not work for file://nothing
-MY_BRANCH=${bamboo.planRepository.1.branch}
+env | sort
+MY_BRANCH=${bamboo_planRepository_branch}
 #git submodule foreach git pull origin ${MY_BRANCH}
 git submodule foreach git checkout ${MY_BRANCH}
 #git submodule update --init git-sym FALCON-make FALCON-examples
