@@ -23,5 +23,7 @@ test:
 
 update: # for creating new releases
 	git submodule update --remote
+	git add .
+	log-compares # my own tool
 
 .PHONY: init test
