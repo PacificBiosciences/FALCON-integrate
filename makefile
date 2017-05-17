@@ -21,4 +21,7 @@ install:
 test:
 	${MAKE} -C ./FALCON-make/ $@
 
+update: # for creating new releases
+	git submodule update --remote
+
 .PHONY: init test

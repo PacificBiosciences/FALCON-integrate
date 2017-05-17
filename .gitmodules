@@ -1,30 +1,40 @@
 [submodule "pypeFLOW"]
 	path = pypeFLOW
 	url = ../pypeFLOW.git
+	branch = develop
 [submodule "DALIGNER"]
 	path = DALIGNER
 	url = ../DALIGNER.git
+	branch = develop
 [submodule "DAMASKER"]
 	path = DAMASKER
 	url = ../DAMASKER
+	branch = develop
 [submodule "DAZZ_DB"]
 	path = DAZZ_DB
 	url = ../DAZZ_DB.git
+	branch = develop
 [submodule "DEXTRACTOR"]
 	path = DEXTRACTOR
 	url = ../DEXTRACTOR
+	branch = develop
 [submodule "FALCON"]
 	path = FALCON
 	url = ../FALCON.git
+	branch = develop
 [submodule "FALCON_unzip"]
 	path = FALCON_unzip
 	url = git://github.com/PacificBiosciences/FALCON_unzip
+	branch = master
 [submodule "FALCON-make"]
 	path = FALCON-make
 	url = git://github.com/pb-cdunn/FALCON-make.git
+	branch = master
 [submodule "FALCON-examples"]
 	path = FALCON-examples
 	url = git://github.com/pb-cdunn/FALCON-examples.git
+	branch = master
 [submodule "git-sym"]
 	path = git-sym
 	url = git://github.com/cdunn2001/git-sym.git
+	branch = master
