@@ -38,3 +38,6 @@
 	path = git-sym
 	url = git://github.com/cdunn2001/git-sym.git
 	branch = master
+[submodule "nim-falcon"]
+	path = nim-falcon
+	url = git://github.com/bio-nim/nim-falcon
