@@ -23,6 +23,5 @@ git submodule
 source env.sh
 #sudo pip install virtualenv # No! Prefer PYTHONUSERBASE.
 make config-edit-user
-make install-nim-falcon
-make -j all
+make all
 make test
