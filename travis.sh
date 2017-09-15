@@ -17,7 +17,9 @@ which python
 
 # Note: Travis pulls submodules for us, but not --recursive. But we no longer need that.
 
+git submodule
 make init
+git submodule
 source env.sh
 #sudo pip install virtualenv # No! Prefer PYTHONUSERBASE.
 make config-edit-user
