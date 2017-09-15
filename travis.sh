@@ -7,6 +7,10 @@ set -vex
 #env | sort
 time date  # sanity check, since we use 'time' and 'date' in our scripts
 
+which nim
+which gcc
+which python
+
 #git submodule update --init
 # In Bamboo, we do not want this script to alter submodules,
 # since we do that inside Bamboo.
