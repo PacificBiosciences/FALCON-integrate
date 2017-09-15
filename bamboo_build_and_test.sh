@@ -31,11 +31,12 @@ pwd
 #git submodule update --init #No! We must use BB for some,
 # and rel URLs do not work for file://nothing
 env | sort
-MY_BRANCH=${bamboo_planRepository_branch}
+#MY_BRANCH=${bamboo_planRepository_branch}
 #git submodule foreach git pull origin ${MY_BRANCH}
-git submodule foreach git checkout ${MY_BRANCH}
+#git submodule foreach git checkout ${MY_BRANCH}
 #git submodule update --init git-sym FALCON-make FALCON-examples
-pushd nim-falcon; git checkout origin/dev; git submodule update --init --recursive; popd
+git submodule update --init --recursive # try just our own stuff; ignore develop branches
+#pushd nim-falcon; git checkout origin/dev; git submodule update --init --recursive; popd
 
 git submodule
 ./travis.sh
