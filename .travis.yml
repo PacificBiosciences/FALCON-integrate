@@ -31,20 +31,20 @@ sudo: false
 
 
 # Copied from https://github.com/nim-lang/Nim/wiki/TravisCI
-language: c
+#language: c
 env:
   # Build and test against the master and devel branches of Nim
-  - BRANCH=master
+  #- BRANCH=master
   - BRANCH=devel
 compiler:
   # Build and test using both gcc and clang
   - gcc
-  - clang
-matrix:
-  allow_failures:
-    # Ignore failures when building against the devel Nim branch
-    - env: BRANCH=devel
-  fast_finish: true
+  #- clang
+#matrix:
+#  allow_failures:
+#    # Ignore failures when building against the devel Nim branch
+#    - env: BRANCH=devel
+#  fast_finish: true
 install:
   - |
     if [ ! -x nim-$BRANCH/bin/nim ]; then
@@ -68,14 +68,14 @@ install:
     cd ..
 before_script:
     - export PATH="nim-$BRANCH/bin${PATH:+:$PATH}"
-script:
-    # Replace uppercase strings!
-    - nim c --cc:$CC --verbosity:0 -r MYFILE.nim
-    # Optional: build docs.
-    - nim doc --docSeeSrcUrl:https://github.com/AUTHOR/MYPROJECT/blob/master --project MYFILE.nim
+#script:
+#    # Replace uppercase strings!
+#    - nim c --cc:$CC --verbosity:0 -r MYFILE.nim
+#    # Optional: build docs.
+#    - nim doc --docSeeSrcUrl:https://github.com/AUTHOR/MYPROJECT/blob/master --project MYFILE.nim
 cache:
   directories:
-    - nim-master
+    #- nim-master
     - nim-devel
 branches:
   except:
