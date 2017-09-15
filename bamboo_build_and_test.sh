@@ -35,7 +35,8 @@ MY_BRANCH=${bamboo_planRepository_branch}
 #git submodule foreach git pull origin ${MY_BRANCH}
 git submodule foreach git checkout ${MY_BRANCH}
 #git submodule update --init git-sym FALCON-make FALCON-examples
-git submodule update --init nim-falcon
+pushd nim-falcon; git checkout origin/dev; git submodule update --init --recursive; popd
+
 git submodule
 ./travis.sh
 ls -l $HOME/.ccache
