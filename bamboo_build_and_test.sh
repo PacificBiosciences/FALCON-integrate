@@ -20,6 +20,7 @@ git --version
 which gcc
 which g++
 gcc --version
+which nim
 # We cannot use /bin/python without /bin/gcc.
 export PATH=/mnt/software/a/anaconda2/4.2.0/bin:$PATH
 which python
@@ -40,7 +41,7 @@ git submodule update --init --recursive # try just our own stuff; ignore develop
 #pushd nim-falcon; git checkout origin/dev; git submodule update --init --recursive; popd
 
 git submodule
-./travis.sh
+source ./travis.sh
 ls -l $HOME/.ccache
 cat $HOME/.ccache/ccache.conf
 date --utc
