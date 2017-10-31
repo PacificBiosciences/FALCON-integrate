@@ -9,12 +9,13 @@ but we also provide some submodules which can help with that.
 ## submodules
 In case you are unfamiliar with [**git-submodules**](http://www.git-scm.com/book/en/v2/Git-Tools-Submodules), they are quite easy to use from the command-line:
 ```sh
-git submodule update --init
+git submodule update --init --recursive
 ```
 If that fails, you can update your **git**, or try this:
 ```sh
 git submodule init
 git submodule update
+# You must somehow update recursively also.
 ```
 which is *almost* the same thing.
 
