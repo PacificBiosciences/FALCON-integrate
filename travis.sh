@@ -8,8 +8,10 @@ set -vex
 time date  # sanity check, since we use 'time' and 'date' in our scripts
 
 which nim
+nim --version
 which gcc
 which python
+python --version
 
 #git submodule update --init
 # In Bamboo, we do not want this script to alter submodules,
