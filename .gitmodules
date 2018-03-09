@@ -41,3 +41,4 @@
 [submodule "nim-falcon"]
 	path = nim-falcon
 	url = git://github.com/bio-nim/nim-falcon
+	branch = dev
