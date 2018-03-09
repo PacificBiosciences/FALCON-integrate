@@ -33,10 +33,10 @@ sudo: false
 # Copied from https://github.com/nim-lang/Nim/wiki/TravisCI
 #language: c
 env:
-  # Build and test against the master and devel branches of Nim
-  #- BRANCH=master
-  - BRANCH=devel
-  #- BRANCH=v0.17.2
+  # Build and test against the master and/or devel branches of Nim
+  - BRANCH=master
+  #- BRANCH=devel
+  #- BRANCH=v0.18.0
 compiler:
   # Build and test using both gcc and clang
   - gcc
@@ -76,8 +76,8 @@ before_script:
 #    - nim doc --docSeeSrcUrl:https://github.com/AUTHOR/MYPROJECT/blob/master --project MYFILE.nim
 cache:
   directories:
-    #- nim-master
-    - nim-devel
+    - nim-master
+    #- nim-devel
 branches:
   except:
     - gh-pages
