@@ -24,15 +24,15 @@
 	branch = develop
 [submodule "FALCON_unzip"]
 	path = FALCON_unzip
-	url = git://github.com/PacificBiosciences/FALCON_unzip
+	url = https://github.com/PacificBiosciences/FALCON_unzip
 	branch = master
 [submodule "FALCON-make"]
 	path = FALCON-make
-	url = git://github.com/pb-cdunn/FALCON-make.git
+	url = https://github.com/pb-cdunn/FALCON-make.git
 	branch = master
 [submodule "FALCON-examples"]
 	path = FALCON-examples
-	url = git://github.com/pb-cdunn/FALCON-examples.git
+	url = https://github.com/pb-cdunn/FALCON-examples.git
 	branch = master
 [submodule "git-sym"]
 	path = git-sym
@@ -40,5 +40,5 @@
 	branch = master
 [submodule "nim-falcon"]
 	path = nim-falcon
-	url = git://github.com/bio-nim/nim-falcon
+	url = https://github.com/bio-nim/nim-falcon
 	branch = dev
